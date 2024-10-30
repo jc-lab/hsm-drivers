@@ -14,6 +14,6 @@ COPY copy.sh /
 
 RUN chmod +x /copy.sh
 
-ENV INSTALL_DIR=/opt/pkcs11
+ENV INSTALL_DIR=/mnt/pkcs11
 CMD /copy.sh
 
